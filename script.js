@@ -25,7 +25,7 @@ function deleteTask(btn) {
   }
 }
 
-// Adicionar nova tarefa COM CATEGORIA
+// Adicionar nova tarefa con categoria
 document.querySelector('.add-btn').addEventListener('click', () => {
   const taskInput = document.getElementById('newTaskInput');
   const categoryInput = document.getElementById('newCategoryInput');
@@ -86,7 +86,7 @@ document.querySelector('.add-btn').addEventListener('click', () => {
 });
 
 
-// Filtros (básico)
+// Filtros
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', (e) => {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
