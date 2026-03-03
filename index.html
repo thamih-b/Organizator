@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>App de Tareas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header>
+    <h1>Mi app de tareas</h1>
+    <p>Organiza tus pendientes del día</p>
+  </header>
+
+  <main>
+    <section aria-label="lista de tareas">
+      <h2>Tareas de hoy</h2>
+
+      <!-- Cada div será una tarjeta de tarea (después maquetamos con flex) -->
+      <article>
+  <div class="task-header">
+    <h3>Estudiar HTML y CSS</h3>
+    <span class="priority high">Alta</span>
+  </div>
+  <p>Categoría: Estudio</p>
+</article>
+
+<article>
+  <div class="task-header">
+    <h3>Hacer ejercicio</h3>
+    <span class="priority medium">Media</span>
+  </div>
+  <p>Categoría: Salud</p>
+  <article class="completed">
+</article>
+
+    </section>
+  </main>
+
+  <aside>
+    <h2>Filtros</h2>
+    <ul>
+      <li>Todas las tareas</li>
+      <li>Alta prioridad</li>
+      <li>Completadas</li>
+    </ul>
+  </aside>
+
+</body>
+</html>
